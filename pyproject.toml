@@ -1,1 +1,39 @@
+[build-system]
+requires = ["setuptools>=69.0"]
+build-backend = "setuptools.build_meta"
 
+[project]
+name = "artapi"
+version = "1.0.0"
+description = "Animated ASCII art renderer for Python terminals."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+authors = [
+    { name = "whoami" }
+]
+
+keywords = [
+    "ascii",
+    "ascii-art",
+    "terminal",
+    "cli",
+    "animation",
+    "banner",
+    "console",
+    "python"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License"
+]
+
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
