@@ -33,7 +33,9 @@ classifiers = [
     "License :: OSI Approved :: MIT License"
 ]
 
-dependencies = []
+dependencies = [
+    "pystyle>=2.9"
+]
 
 [tool.setuptools.packages.find]
 where = ["."]
