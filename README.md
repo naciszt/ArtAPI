@@ -20,7 +20,7 @@ pip install artapi
 ## Usage
 
 ```python
-from artapi import show
+from artapi import show, gradient, xcenter
 
 banner = r"""
     _         _   
@@ -30,7 +30,8 @@ banner = r"""
 /_/   \_\_|   \__|
 """
 
-show(banner)
+show(banner) # this will be with gradient and xcenter
+print(gradient(xcenter("Hello World!"))) # this is a vertically gradiented & centered text
 ```
 
 ## Options
