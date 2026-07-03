@@ -1,23 +1,23 @@
 # ArtAPI
 
-Simple Python library for beautiful animated ASCII banners in the terminal.
+Библиотека на Python для легкого создания анимированных ASCII артов/Градиентов/Центрирование Текста в терминале
 
-## Features
+## Фишки
 
-- ✨ Typing animation
-- ⚡ Glitch effect
-- 💡 Shine effect
-- 🌈 RGB grayscale colors
-- 🔁 Infinite animation loop
-- 📍 Automatic terminal centering
+- ✨ Анимация Тайпинга
+- ⚡ Глитч Эффект
+- 💡 Эффект сияния
+- 🌈 RGB цвета
+- 🔁 Бесконечный цикл сияния
+- 📍 Автоматическое центрированния
 
-## Installation
+## Установка
 
 ```bash
 pip install artapi
 ```
 
-## Usage
+## Использование
 
 ```python
 from artapi import show, gradient, xcenter
@@ -30,11 +30,11 @@ banner = r"""
 /_/   \_\_|   \__|
 """
 
-show(banner) # this will be with gradient and xcenter
-print(gradient(xcenter("Hello World!"))) # this is a vertically gradiented & centered text
+show(banner) # это типо все сразу
+print(gradient(xcenter("Hello World!"))) # это градиент + центр
 ```
 
-## Options
+## Опции
 
 ```python
 show(
@@ -48,16 +48,16 @@ show(
 )
 ```
 
-| Parameter | Description | Default |
+| Параметр | Описание | Дефолт |
 |-----------|-------------|---------|
-| typing | Typing animation | True |
-| glitch | Glitch effect | True |
-| flash | Flash effect | True |
-| shine | Shine animation | True |
-| loop | Infinite shine loop | False |
-| speed | Shine animation speed | 0.01 |
+| typing | Анимация тайпинга | True |
+| glitch | Глитч эффект | True |
+| flash | Флэш эффект | True |
+| shine | Анимация сияние | True |
+| loop | Бесконечный цикл | False |
+| speed | Скорость анимации сияния | 0.01 |
 
-## Example
+## Пример
 
 ```python
 from artapi import show
@@ -74,10 +74,10 @@ banner = """
 show(banner)
 ```
 
-## Requirements
+## Зависимости
 
 - Python 3.8+
 
-## License
+## Лицензия
 
 MIT
